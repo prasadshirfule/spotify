@@ -1,0 +1,89 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/*header*/
+.header{
+  height: 10%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo{
+    width: 2.2%;
+    height: 44%;
+}
+
+.home{
+    width: 2.9%;
+    height: 59%;
+    margin-left: 470px;
+}
+
+.search_button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 20px;
+    color: rgb(97, 92, 92);
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search{
+    width: 16px;
+    height: 16px;
+}
+/*header*/
+
+/*body*/
+.content{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  flex: 1;
+  overflow: hidden;
+  padding-bottom: 70px;
+}
+
+.side_bar{
+  width: 320px;
+  background-color: rgb(29, 28, 28);
+  border-radius: 1rem;
+}
+
+.main_content{
+  flex: 1;
+  background-color: rgb(61, 61, 63);
+  border-radius: 1rem;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.main_content::-webkit-scrollbar {
+  display: none;
+}
+/*body*/
+
+.footer{
+  height: 70px;
+  background-color: #060000;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
