@@ -15,6 +15,7 @@ body{
 /*header*/
 .header{
   height: 10%;
+  top: 0%;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -23,6 +24,8 @@ body{
 .logo{
     width: 2.2%;
     height: 44%;
+    padding-left: 27px;
+    
 }
 
 .home{
@@ -48,6 +51,23 @@ body{
 .search{
     width: 16px;
     height: 16px;
+}
+
+.download{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.install{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
 }
 /*header*/
 
